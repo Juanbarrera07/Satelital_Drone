@@ -1,0 +1,33 @@
+[project]
+name = "terraforge-mining-intelligence"
+version = "0.1.0"
+description = "TerraForge Mining Intelligence (TMI) - Tier-1 Geospatial AI platform"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit",
+    "rasterio",
+    "geopandas",
+    "laspy",
+    "scikit-learn",
+    "xgboost",
+    "reportlab",
+    "pyyaml>=6.0.3",
+    "sentinelsat>=1.2.1",
+    "python-dotenv>=1.2.1",
+    "landsatxplore>=0.12.1",
+    "tqdm>=4.67.3",
+    "requests>=2.32.5",
+    "rio-cogeo>=5.4.2",
+]
+[tool.uv]
+package = false
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+]

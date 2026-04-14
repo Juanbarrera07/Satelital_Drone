@@ -1,0 +1,29 @@
+# TerraForge Mining Intelligence (TMI) - Configuration
+
+pipeline:
+  processing_mode: "precision" # Options: "fast", "precision"
+  spatial_resolution: 10 # meters
+  crs: "EPSG:32719" # WGS 84 / UTM zone 19S (Adjust based on location)
+
+performance:
+  window_size: 1024 # Block size for windowed reading in rasterio
+  max_workers: 4 # For parallel processing
+
+preprocessing:
+  target_level: "BOA" # Bottom of Atmosphere Surface Reflectance
+  coreg_rmse_threshold: 0.5 # Maximum allowed RMSE for co-registration (pixels)
+  cloud_cover_threshold: 10 # Maximum percentage of cloud cover allowed
+
+classification:
+  rf_estimators: 100
+  rf_max_depth: 20
+  unet_batch_size: 16
+  unet_epochs: 50
+  confidence_threshold: 0.85 # Minimum confidence for positive classification
+
+reporting:
+  target_standard: "IPCC_Tier_3" # Options: IPCC_Tier_2, IPCC_Tier_3
+  min_accuracy: 0.85 # Required overall accuracy
+  min_precision: 0.80 # Required precision for critical classes (water, tailings)
+  max_uncertainty: 0.15 # Maximum allowable uncertainty
+  report_format: "pdf"
