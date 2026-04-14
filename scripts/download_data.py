@@ -85,7 +85,7 @@ def download_sentinel(aoi_wkt: str, start_date: str, end_date: str, cloud_cover:
             logger.error(f"Retry Sentinel download failed: {retry_e}")
 
 
-def download_landsat(aoi_bbox: tuple, start_date: str, end_date: str, max_cloud_cover: int = 10):
+def download_landsat(aoi_bbox: tuple, start_date: str, end_date: str, max_cloud_cover: int = 10, progress_callback=None):
     """Handles Landsat downloads via USGS M2M API using requests.Session() and dynamic auth fallback."""
     load_dotenv()
     username = os.environ.get('USGS_USER')
@@ -200,8 +200,13 @@ def download_landsat(aoi_bbox: tuple, start_date: str, end_date: str, max_cloud_
             logger.info("ℹ️ No Landsat products found for the specified AOI and timeframe. Adjust filters.")
             return
 
-        # Sort scenes by cloud cover
-        results = sorted(results, key=lambda x: x.get('cloudCover', 100))
+        # Filter scenes by cloud cover and explicitly sort by recency
+        results = [r for r in results if r.get('cloudCover', 100) <= max_cloud_cover]
+        if not results:
+            logger.info(f"ℹ️ No Landsat products found under {max_cloud_cover}% cloud cover.")
+            return
+            
+        results.sort(key=lambda x: x.get('publishDate', x.get('startTime', '')), reverse=True)
         best_scene = results[0]
         scene_id = best_scene.get('entityId')
         display_id = best_scene.get('displayId', scene_id)
@@ -268,9 +273,30 @@ def download_landsat(aoi_bbox: tuple, start_date: str, end_date: str, max_cloud_
         bundle_path = os.path.join(download_dir, f"{display_id}.tar")
         with session.get(actual_url, stream=True) as d_req:
              d_req.raise_for_status()
+             
+             total_length = d_req.headers.get('content-length')
+             total_length = int(total_length) if total_length is not None else 0
+             
+             start_t = time.time()
+             downloaded = 0
+             
              with open(bundle_path, 'wb') as f:
                  for chunk in d_req.iter_content(chunk_size=1024*1024):
-                     f.write(chunk)
+                     if chunk:
+                         f.write(chunk)
+                         downloaded += len(chunk)
+                         if total_length > 0 and progress_callback:
+                             elapsed = time.time() - start_t
+                             speed = downloaded / elapsed if elapsed > 0 else 0
+                             eta_s = (total_length - downloaded) / speed if speed > 0 else 0
+                             mins, secs = divmod(int(eta_s), 60)
+                             eta_str = f"{mins:02d}:{secs:02d}"
+                             mbs = speed / (1024*1024)
+                             progress_callback(downloaded, total_length, prefix=f"Downloading [{mbs:.1f} MB/s | ETA: {eta_str}]")
+                             
+             if total_length > 0 and downloaded < total_length:
+                 logger.error(f"Incomplete Read Bypass: Expected {total_length} bytes, interrupted locally at {downloaded}")
+                 raise Exception("Fatal Net: Incomplete payload from USGS API detected.")
                      
         logger.info(f"✅ Landsat download completed successfully: {bundle_path}")
 

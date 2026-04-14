@@ -42,8 +42,17 @@ class Preprocessor:
         os.makedirs(extract_dir, exist_ok=True)
         
         if zipfile.is_zipfile(archive_path):
+            # CDSE Sentinel SAFE extraction (Avoid entire 1GB unpack)
             with zipfile.ZipFile(archive_path, 'r') as zip_ref:
-                zip_ref.extractall(extract_dir)
+                target_bands = ["_B02_10m.jp2", "_B03_10m.jp2", "_B04_10m.jp2", "_B08_10m.jp2", "_B11_20m.jp2", "_B12_20m.jp2"]
+                extract_members = [f for f in zip_ref.infolist() if any(t in f.filename for t in target_bands)]
+                
+                if extract_members:
+                    logger.info(f"Refinery: CDSE Selective Extraction mapping {len(extract_members)} vital payload sensors natively.")
+                    zip_ref.extractall(path=extract_dir, members=extract_members)
+                else:
+                    logger.warning("No standard Sentinel targets found, defaulting full extraction.")
+                    zip_ref.extractall(extract_dir)
         elif tarfile.is_tarfile(archive_path):
             with tarfile.open(archive_path, 'r:*') as tar_ref:
                 tar_ref.extractall(extract_dir)
@@ -51,14 +60,14 @@ class Preprocessor:
              logger.error(f"Unsupported archive format for {archive_path}")
              raise ValueError(f"Not a valid .zip or .tar file: {archive_path}")
              
-        # Locate extracted tif files (case insensitive approach)
+        # Locate extracted component files (case insensitive approach + jp2 Sentinel support)
         tifs = []
         for root, dirs, files in os.walk(extract_dir):
             for file in files:
-                if file.lower().endswith(('.tif', '.tiff')):
+                if file.lower().endswith(('.tif', '.tiff', '.jp2')):
                     tifs.append(os.path.join(root, file))
                     
-        logger.info(f"Refinery: Extracted {len(tifs)} TIF components.")
+        logger.info(f"Refinery: Extracted {len(tifs)} raster components.")
         return tifs
 
     def build_cog(self, src_path: str, dst_path: str):
@@ -83,16 +92,34 @@ class Preprocessor:
         )
         
         try:
-            # Perform translation in memory to avoid Windows temp file permission deadlocks
-            cog_translate(
-                src_path,
-                dst_path,
-                dst_profile,
-                config=config,
-                in_memory=True,    # forces RAM buffer strictly bypassing disk temp locks
-                overview_level=5,  # creates internal pyramid overviews for zoom
-                overview_resampling="nearest"
-            )
+            from rasterio.vrt import WarpedVRT
+            from rasterio.enums import Resampling
+            import rasterio
+            
+            with rasterio.open(src_path) as src:
+                vrt_options = {}
+                # Live dynamic upsampling aligning Sentinel 20m geometry directly into 10m coordinate grid
+                if "B11_20m" in src_path or "B12_20m" in src_path:
+                    logger.info(f"Refinery: Enforcing 10m Topography upscaling native 20m geometry for {os.path.basename(src_path)}")
+                    from rasterio.transform import Affine
+                    vrt_options.update(
+                        resampling=Resampling.nearest,
+                        transform=src.transform * Affine.scale(0.5, 0.5), # 2x pixel density (10m vs 20m)
+                        width=src.width * 2,
+                        height=src.height * 2
+                    )
+                
+                with WarpedVRT(src, **vrt_options) as vrt:
+                    # Perform translation in memory buffering natively from VRT wrapper
+                    cog_translate(
+                        vrt,
+                        dst_path,
+                        dst_profile,
+                        config=config,
+                        in_memory=True,    # forces RAM buffer strictly bypassing disk temp locks
+                        overview_level=5,  # creates internal pyramid overviews for zoom
+                        overview_resampling="nearest"
+                    )
             logger.info(f"COG generation successful: {os.path.basename(dst_path)}")
         except PermissionError as e:
             logger.error(f"⚠️ PermissionError (WinError 32): Unable to write or cleanup files.")
@@ -109,9 +136,22 @@ class Preprocessor:
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         session_id = os.path.splitext(os.path.basename(raw_archive_path))[0]
         
-        interim_dir = os.path.join(base_dir, "data", "interim", session_id)
-        processed_dir = os.path.join(base_dir, "data", "processed", session_id)
+        lower_path = raw_archive_path.lower()
+        if lower_path.endswith(".zip"): sensor_folder = "sentinel"
+        elif lower_path.endswith(".tar"): sensor_folder = "landsat"
+        else: sensor_folder = "drone"
+        
+        interim_dir = os.path.join(base_dir, "data", "interim", sensor_folder, session_id)
+        processed_dir = os.path.join(base_dir, "data", "processed", sensor_folder, session_id)
+        os.makedirs(interim_dir, exist_ok=True)
         os.makedirs(processed_dir, exist_ok=True)
+        
+        if sensor_folder == "drone":
+            logger.info("Refinery: Bypassing extraction architecture for Drone footprint, bridging directly to COG Array.")
+            dst_path = os.path.join(processed_dir, f"{session_id}_Orthomosaic_COG.tif")
+            if not os.path.exists(dst_path):
+                self.build_cog(raw_archive_path, dst_path)
+            return [dst_path]
         
         # Step 1: Extraction
         raw_tifs = self.extract_archive(raw_archive_path, interim_dir)
