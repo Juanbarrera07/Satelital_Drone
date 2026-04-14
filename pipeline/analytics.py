@@ -1,15 +1,15 @@
 """
 TMI Analytics Module.
 
-Responsible for computing base spectral indices (NDVI, NDWI) relevant for mining audits.
+Responsible for computing base spectral indices (NDVI, NDWI) 
+and advanced geological indices (CLAY, IRON_OXIDE) for mining audits.
 Implements block window processing to drastically reduce RAM consumption on large Tier-1 acquisitions.
 """
 
-import os
-import glob
 import logging
 import numpy as np
 import rasterio
+from pathlib import Path
 from rio_cogeo.cogeo import cog_translate
 from rio_cogeo.profiles import cog_profiles
 
@@ -20,9 +20,9 @@ class SpectralAnalyzer:
         """Initializes the spectral analyzer engine."""
         pass
 
-    def identify_satellite(self, folder_path: str) -> str:
+    def identify_satellite(self, folder_path: Path) -> str:
         """Determines satellite type based on explicit COG file nomenclature."""
-        files = os.listdir(folder_path)
+        files = [f.name for f in folder_path.iterdir() if f.is_file()]
         for f in files:
             if any(x in f for x in ["LC08", "LC09", "LT05", "LE07"]):
                 return "LANDSAT"
@@ -34,31 +34,37 @@ class SpectralAnalyzer:
             return "LANDSAT"
         return "UNKNOWN"
 
-    def get_band_paths(self, folder_path: str, satellite: str) -> dict:
-        """Dynamically isolates specific bands needed for indices (Green, Red, NIR)."""
+    def get_band_paths(self, folder_path: Path, satellite: str) -> dict:
+        """Dynamically isolates specific bands needed for indices."""
         paths = {}
-        files = glob.glob(os.path.join(folder_path, "COG_*.TIF")) + glob.glob(os.path.join(folder_path, "COG_*.tif"))
+        files = list(folder_path.glob("COG_*.TIF")) + list(folder_path.glob("COG_*.tif"))
         
         if satellite == "LANDSAT":
             # Landsat 8/9 OLI configuration
             for f in files:
-                if "SR_B3" in f: paths['green'] = f
-                elif "SR_B4" in f: paths['red'] = f
-                elif "SR_B5" in f: paths['nir'] = f
+                f_name = f.name
+                if "SR_B2" in f_name: paths['blue'] = str(f)
+                elif "SR_B3" in f_name: paths['green'] = str(f)
+                elif "SR_B4" in f_name: paths['red'] = str(f)
+                elif "SR_B5" in f_name: paths['nir'] = str(f)
+                elif "SR_B6" in f_name: paths['swir1'] = str(f)
+                elif "SR_B7" in f_name: paths['swir2'] = str(f)
         elif satellite == "SENTINEL":
             # Sentinel-2 MSI configuration
             for f in files:
-                if "B03" in f: paths['green'] = f
-                elif "B04" in f: paths['red'] = f
-                elif "B08" in f: paths['nir'] = f
+                f_name = f.name
+                if "B03" in f_name: paths['green'] = str(f)
+                elif "B04" in f_name: paths['red'] = str(f)
+                elif "B08" in f_name: paths['nir'] = str(f)
 
+        # Basic bands sanity check
         if not all(k in paths for k in ['green', 'red', 'nir']):
             logger.error(f"Missing essential bands for {satellite}. Found: {list(paths.keys())}")
-            raise FileNotFoundError("Could not find required bands (Green, Red, NIR) in processed directory.")
+            raise FileNotFoundError("Could not find required base bands (Green, Red, NIR) in processed directory.")
             
         return paths
 
-    def calculate_index_by_blocks(self, band1_path: str, band2_path: str, out_temp_path: str, index_type: str = "NDVI"):
+    def calculate_index_by_blocks(self, band1_path: str, band2_path: str, out_temp_path: Path, index_type: str = "NDVI"):
         """
         Calculates normalized difference indices extracting chunks synchronously to avert RAM bloat.
         Uses windowed I/O from Rasterio.
@@ -67,7 +73,7 @@ class SpectralAnalyzer:
             meta = src1.meta.copy()
             meta.update(dtype=rasterio.float32, nodata=-9999.0, count=1)
             
-            with rasterio.open(out_temp_path, 'w', **meta) as dst:
+            with rasterio.open(str(out_temp_path), 'w', **meta) as dst:
                 for ji, window in src1.block_windows(1):
                     # Array isolation per block
                     b1 = src1.read(1, window=window).astype(np.float32)
@@ -81,6 +87,12 @@ class SpectralAnalyzer:
                         elif index_type == "NDWI":
                             # NDWI = (Green - NIR) / (Green + NIR) -> b1: Green, b2: NIR
                             idx_array = (b1 - b2) / (b1 + b2)
+                        elif index_type == "CLAY":
+                            # Clay = SWIR1 / SWIR2 -> b1: SWIR1, b2: SWIR2
+                            idx_array = b1 / b2
+                        elif index_type == "IRON_OXIDE":
+                            # Iron Oxide = Red / Blue -> b1: Red, b2: Blue
+                            idx_array = b1 / b2
                         else:
                             raise ValueError(f"Unknown Index mapping: {index_type}")
                             
@@ -90,19 +102,20 @@ class SpectralAnalyzer:
                     # Flush chunk out
                     dst.write(idx_array, 1, window=window)
 
-    def generate_analytical_cogs(self, session_folder: str):
+    def generate_analytical_cogs(self, session_folder: Path):
         """Coordinador of geospatial derivation injecting temp states directly towards final Cloud structure."""
         satellite = self.identify_satellite(session_folder)
-        logger.info(f"Analytical Engine: Identified {satellite} footprint in {os.path.basename(session_folder)}")
+        logger.info(f"Analytical Engine: Identified {satellite} footprint in {session_folder.name}")
         
         # Pull appropriate payload paths mapped dynamically
         bands = self.get_band_paths(session_folder, satellite)
         
-        session_id = os.path.basename(session_folder)
+        session_id = session_folder.name
+        
         # Calculate dynamic project root securely
-        project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        results_dir = os.path.join(project_root, "data", "results", session_id)
-        os.makedirs(results_dir, exist_ok=True)
+        project_root = Path(__file__).resolve().parent.parent
+        results_dir = project_root / "data" / "results" / session_id
+        results_dir.mkdir(parents=True, exist_ok=True)
         
         # Tuple sequence rules: (Index_name, operand_b1_path, operand_b2_path)
         indices_to_calc = [
@@ -110,10 +123,20 @@ class SpectralAnalyzer:
             ("NDWI", bands['green'], bands['nir'])
         ]
         
+        if satellite == "LANDSAT":
+            # Add strict geological mappings based on landsat data bounds
+            if all(k in bands for k in ['swir1', 'swir2', 'red', 'blue']):
+                indices_to_calc.extend([
+                    ("CLAY", bands['swir1'], bands['swir2']),
+                    ("IRON_OXIDE", bands['red'], bands['blue'])
+                ])
+            else:
+                logger.warning("Landsat payload missing specialized bands. Skipping CLAY and IRON_OXIDE indices.")
+        
         for idx_name, b1, b2 in indices_to_calc:
             logger.info(f"Computing {idx_name} by streaming blocks...")
-            temp_tif = os.path.join(results_dir, f"temp_{idx_name}.tif")
-            final_cog = os.path.join(results_dir, f"{session_id}_{idx_name}_COG.tif")
+            temp_tif = results_dir / f"temp_{idx_name}.tif"
+            final_cog = results_dir / f"{session_id}_{idx_name}_COG.tif"
             
             # Step 1: Chunked extraction calculation preventing array overload
             self.calculate_index_by_blocks(b1, b2, temp_tif, index_type=idx_name)
@@ -127,8 +150,8 @@ class SpectralAnalyzer:
             try:
                 # Translating strictly on valid RAM cache
                 cog_translate(
-                    temp_tif,
-                    final_cog,
+                    str(temp_tif),
+                    str(final_cog),
                     dst_profile,
                     config=config,
                     in_memory=True, 
@@ -139,24 +162,27 @@ class SpectralAnalyzer:
             except Exception as e:
                 logger.error(f"Failed configuring COG for {idx_name}: {e}")
             finally:
-                # Cleanup volatile IOs footprint
-                if os.path.exists(temp_tif):
-                    os.remove(temp_tif)
+                # Cleanup volatile IOs footprint securely via pathlib
+                try:
+                    if temp_tif.exists():
+                        temp_tif.unlink()
+                except Exception as e:
+                    logger.warning(f"Could not cleanly unlink volatile temp file {temp_tif}: {e}")
 
 if __name__ == "__main__":
     import sys
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-    print("🚀 Iniciando Motor de Análisis Espectral (TMI Analytics)...")
+    print("🚀 Iniciando Motor de Análisis Espectral Geoespacial (TMI Analytics)...")
     
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    project_root = os.path.dirname(script_dir)
-    processed_dir = os.path.join(project_root, "data", "processed")
+    script_dir = Path(__file__).resolve().parent
+    project_root = script_dir.parent
+    processed_dir = project_root / "data" / "processed"
     
-    if not os.path.exists(processed_dir):
+    if not processed_dir.exists():
         print(f"❌ Directorio puente inactivo. Faltan datos COG en: {processed_dir}")
         sys.exit(1)
         
-    sessions = [os.path.join(processed_dir, d) for d in os.listdir(processed_dir) if os.path.isdir(os.path.join(processed_dir, d))]
+    sessions = [d for d in processed_dir.iterdir() if d.is_dir()]
     
     if not sessions:
         print("ℹ️ Procesamiento en blanco: Ejecutar ingest/preprocess antes de invocar engine analítico.")
@@ -165,8 +191,8 @@ if __name__ == "__main__":
     analyzer = SpectralAnalyzer()
     
     for session in sessions:
-        print(f"📊 Ejecutando analítica de minería en la captura: {os.path.basename(session)}")
+        print(f"📊 Ejecutando analítica de minería en la captura: {session.name}")
         analyzer.generate_analytical_cogs(session)
         print("-" * 50)
         
-    print("✅ Base analítica iterada satisfactoriamente. Todo el pool ha sido persistido sobre data/results/ en formato nativo COG.")
+    print("✅ Base analítica iterada satisfactoriamente. Subproductos exportados exitosamente a data/results/ en formato nativo COG.")

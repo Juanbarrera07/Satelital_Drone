@@ -1,0 +1,1200 @@
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_4651 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_3206 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_3934 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_6574 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5111 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9502 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_6395 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9313 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_7474 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_3912 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_522 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5612 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_8845 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9670 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_2736 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_67 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_1157 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_2083 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5182 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_8902 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_1061 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_2643 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9976 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_8617 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_6072 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_1453 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_200 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_1479 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_4545 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_7239 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_3410 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_4168 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9487 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_6955 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_2626 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_4010 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_8962 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5530 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_975 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_856 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_6446 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_4085 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_2872 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_2229 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9355 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_6810 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_1935 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_2955 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5226 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_1911 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_2657 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_3584 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_156 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_1060 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_4908 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5940 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5795 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9501 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_7186 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_6302 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_6698 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_6770 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9071 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_8198 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9692 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9755 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9095 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_1203 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_7734 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_327 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5316 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5566 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5114 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9992 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5145 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_2810 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5349 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_2488 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_4205 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9950 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_583 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9389 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_7654 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_4022 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_4094 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_7281 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_6101 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_3340 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9570 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_9159 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_6130 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_7848 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_68 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_2155 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_7204 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_5651 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_3894 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_1044 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_2278 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:55:33] [PASS] TestID: BOA_Matrix_4670 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_940 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_137 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_1083 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_1077 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5152 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2251 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_3188 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2083 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_3475 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_6098 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_8772 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_679 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_3900 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_476 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_6679 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_9610 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_6168 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_9529 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5526 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2694 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_6020 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_165 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_4229 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_9028 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_9835 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_1448 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_650 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2376 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_8311 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5385 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_607 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_1289 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_8649 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5484 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_8462 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2489 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_6101 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_559 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_6206 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_8894 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5248 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5982 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5775 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5955 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_4487 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2794 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_7707 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2276 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2826 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_1598 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2042 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5431 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_9071 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_9104 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_9685 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_3925 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_1587 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_7833 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_4108 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_3592 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_7544 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_1826 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_1489 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_7071 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_3400 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_7029 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5846 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5288 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_8016 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_6226 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2836 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_226 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_6312 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_9309 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_7141 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5363 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_1653 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_7270 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_1110 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_9081 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_9509 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_356 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5074 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_8259 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2463 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_8066 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_1579 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_5563 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_9328 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2022 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2386 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_4156 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_9846 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_2048 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_1633 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_661 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_8012 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_4360 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_3613 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:58:24] [PASS] TestID: BOA_Matrix_6389 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_8543 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_1595 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3052 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3576 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5537 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_2936 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_7475 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_2820 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_8750 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_9833 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_4261 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_7476 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_6514 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_2256 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3733 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_9504 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3197 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_6465 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_6684 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5781 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_7385 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_79 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_2106 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5968 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_8153 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5411 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_493 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3444 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_683 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_8801 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_9739 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_8990 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_2862 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3945 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_418 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3560 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_7953 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_7917 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_695 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_8659 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_7609 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_9213 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_2550 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3262 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_33 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_4495 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_7053 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_6932 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_15 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_9200 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_633 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_9182 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_1857 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5994 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5154 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_1759 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_6781 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_422 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_1541 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_6634 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_2862 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_8730 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_1799 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_7546 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_2936 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_6454 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5219 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_2987 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3195 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_7517 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5977 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_2145 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5892 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_175 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3642 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_1248 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_397 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3041 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_6340 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_8878 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_358 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_7773 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_1637 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3079 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_184 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_6846 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3900 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5647 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_3597 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5035 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5436 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_30 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5981 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_9812 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_7600 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_6701 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_2229 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_5189 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_1240 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:01] [PASS] TestID: BOA_Matrix_4891 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_6613 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_1874 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8058 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_7787 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_6297 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5405 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_3938 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5977 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_7637 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8266 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_7506 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_7055 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_3785 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5511 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_2832 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9155 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_6387 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_6039 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_3650 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8702 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_755 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_7251 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_1877 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_6545 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_3435 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_700 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_4204 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9535 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5517 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9435 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8397 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_327 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_1721 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_4244 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_4338 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_2740 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_7658 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8996 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_4424 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9062 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_2835 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_4713 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_3549 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_363 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9561 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_1603 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_835 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8833 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_3321 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_7810 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5959 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_4611 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_3023 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_6495 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_1411 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5749 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5000 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_4268 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_1410 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5934 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_4897 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9570 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8827 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_6594 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_2180 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8255 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_6065 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_4256 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8188 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9074 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_2871 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9236 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_1940 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9722 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_944 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_954 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5321 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5432 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_1792 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8793 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_3102 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_6360 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5855 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5157 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8208 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_1049 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_1865 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_695 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9785 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9731 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9493 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_6951 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_6143 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_2762 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8271 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_2201 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9679 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_5720 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_9590 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 20:59:29] [PASS] TestID: BOA_Matrix_8503 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_5853 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_3073 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_9139 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_3039 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_9928 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_2059 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_8772 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_9018 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_3644 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_3815 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_7506 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_365 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_4754 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:37] [PASS] TestID: BOA_Matrix_3966 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_1382 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8400 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_1386 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_7733 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_3688 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_9212 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_9219 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_3023 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_2251 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_2563 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_6897 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_1556 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_3231 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_6447 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_2275 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_4391 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_1910 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_7900 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_9459 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_2635 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_7863 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8335 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_5893 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_2764 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_6378 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_7086 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_9273 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_187 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8958 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_5499 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_5437 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_939 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_9163 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_1078 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_9801 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_2069 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8840 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_7641 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_3519 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_9961 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_2840 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_9044 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_7756 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_2762 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8357 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_7406 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_5721 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_5502 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_280 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_5871 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_1470 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8464 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8331 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_3367 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_457 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_3314 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_35 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_2872 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_279 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8840 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_2772 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_3105 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8718 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_6791 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_1077 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_2486 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_4166 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8934 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_989 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_2870 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_1537 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_7190 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_3828 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8860 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_9862 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_4164 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_7332 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8319 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_4334 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_224 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8357 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_8602 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_1130 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_9184 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_4373 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:00:38] [PASS] TestID: BOA_Matrix_1496 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.890,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.905,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.920,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.935,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.870,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.883,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.895,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.907,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.080 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.090 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.100 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: ReportEngine - Metric: Acc:0.950,Prec:0.920,Unc:0.110 - Threshold: 0.90-0.88-0.10
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8654 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_9229 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_2419 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_3171 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_7638 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_4504 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8937 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_4615 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_3316 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8850 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_4069 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5679 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_6966 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8392 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_4724 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_4557 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_3676 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_4526 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5621 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5357 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_2709 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5250 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_1598 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_2340 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5657 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_6021 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_9824 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_3016 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5314 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_1769 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_7302 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8903 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_1265 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8812 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8875 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8046 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_6588 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5023 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_9896 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_2151 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_1154 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_9836 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_3730 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8755 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5342 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_1844 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5450 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_3596 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_2187 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_1763 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_6490 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5174 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_2235 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_2919 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5278 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5803 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_548 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_7065 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8739 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5772 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_7630 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_877 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_2525 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_7267 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_9186 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5396 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5513 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_6367 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_3753 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_6485 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8128 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5693 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_2888 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_4553 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_844 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_466 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5921 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_4668 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_9861 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_9152 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_1033 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5626 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_9785 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_3882 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_117 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_807 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_4125 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_1363 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_6296 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_987 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_6741 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_7316 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_1269 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_4636 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5164 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5784 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8747 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_8941 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_5936 - Metric: Array Standardization - Threshold: [0.0 - 1.0]
+[2026-04-14 21:03:18] [PASS] TestID: BOA_Matrix_9155 - Metric: Array Standardization - Threshold: [0.0 - 1.0]

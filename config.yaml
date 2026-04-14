@@ -11,7 +11,7 @@ performance:
 
 preprocessing:
   target_level: "BOA" # Bottom of Atmosphere Surface Reflectance
-  coreg_rmse_threshold: 0.5 # Maximum allowed RMSE for co-registration (pixels)
+  coreg_rmse_threshold: 0.3 # Maximum allowed RMSE for co-registration (pixels)
   cloud_cover_threshold: 10 # Maximum percentage of cloud cover allowed
 
 classification:
@@ -23,7 +23,7 @@ classification:
 
 reporting:
   target_standard: "IPCC_Tier_3" # Options: IPCC_Tier_2, IPCC_Tier_3
-  min_accuracy: 0.85 # Required overall accuracy
-  min_precision: 0.80 # Required precision for critical classes (water, tailings)
-  max_uncertainty: 0.15 # Maximum allowable uncertainty
+  min_accuracy: 0.90 # Required overall accuracy
+  min_precision: 0.88 # Required precision for critical classes (water, tailings)
+  max_uncertainty: 0.10 # Maximum allowable uncertainty
   report_format: "pdf"
