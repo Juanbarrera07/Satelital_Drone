@@ -31,11 +31,11 @@ try:
     
     mission_platform = st.sidebar.selectbox(
         "🛰️ Mission Platform",
-        ["Landsat 8/9 (USGS)", "Sentinel-2 (Copernicus)", "Tactical Drone (DJI)"]
+        ["Landsat 8/9 (USGS)", "Sentinel-2 (Copernicus)"]
     )
     
     # Global dynamic path isolation based on active sensor
-    sensor_target = "sentinel" if "Sentinel" in mission_platform else "drone" if "Drone" in mission_platform else "landsat"
+    sensor_target = "sentinel" if "Sentinel" in mission_platform else "landsat"
     processed_dir = project_root / "data" / "processed" / sensor_target
     results_dir = project_root / "data" / "results" / sensor_target
 
@@ -49,95 +49,82 @@ try:
     # MODULE 1: INGESTION
     # -----------------
     if app_mode == "1. Data Ingestion":
-        sensor_target = "sentinel" if "Sentinel" in mission_platform else "drone" if "Drone" in mission_platform else "landsat"
-        archive_ext = "*.zip" if "Sentinel" in mission_platform else "*.tif" if "Drone" in mission_platform else "*.tar"
+        sensor_target = "sentinel" if "Sentinel" in mission_platform else "landsat"
+        archive_ext = "*.zip" if "Sentinel" in mission_platform else "*.tar"
         
         raw_dir = project_root / "data" / "raw" / sensor_target
         raw_dir.mkdir(parents=True, exist_ok=True)
 
-        if mission_platform == "Tactical Drone (DJI)":
-            st.title("🚁 Tactical Drone Ingestion (UAV)")
-            st.markdown("Drop zone for high-resolution Orthomosaics (.tif/.tiff). Analytics are strictly local and manually triggered.")
+        sensor_name = "USGS" if "Landsat" in mission_platform else "CDSE Copernicus"
+        st.title(f"📡 M2M Data Ingestion ({sensor_name})")
+        st.markdown(f"Automated M2M acquisition bridging remote satellite payloads directly into standard COGs.")
+        
+        with st.form("ingestion_form"):
+            col1, col2 = st.columns(2)
             
-            uploaded_file = st.file_uploader("Upload Orthomosaic (.tif, .tiff)", type=["tif", "tiff"])
-            if uploaded_file is not None:
-                save_path = raw_dir / uploaded_file.name
-                with open(save_path, "wb") as f:
-                    f.write(uploaded_file.getbuffer())
-                st.success(f"✅ Drone asset bridged directly to raw node: {uploaded_file.name}")
-        else:
-            sensor_name = "USGS" if "Landsat" in mission_platform else "CDSE Copernicus"
-            st.title(f"📡 M2M Data Ingestion ({sensor_name})")
-            st.markdown(f"Automated M2M acquisition bridging remote satellite payloads directly into standard COGs.")
+            with col1:
+                st.markdown("##### AOI Configuration (Bounding Box)")
+                min_lon = st.number_input("Min Longitude", value=-68.9, format="%.4f")
+                max_lon = st.number_input("Max Longitude", value=-68.8, format="%.4f")
+                min_lat = st.number_input("Min Latitude", value=-22.5, format="%.4f")
+                max_lat = st.number_input("Max Latitude", value=-22.4, format="%.4f")
+                
+            with col2:
+                st.markdown("##### Temporal & Cloud Criteria")
+                start_d = st.date_input("Start Date", value=date(2025, 9, 1))
+                end_d = st.date_input("End Date", value=date(2025, 11, 30))
+                cloud_cover = st.slider("Max Cloud Cover (%)", 0, 100, 10)
+                
+            submit_ingest = st.form_submit_button(f"Download {sensor_name} Data")
             
-            with st.form("ingestion_form"):
-                col1, col2 = st.columns(2)
+        if submit_ingest:
+            with st.spinner("Executing M2M bridge request. Keep session active (downloading GigaByte arrays)..."):
+                st.toast(f"Authenticating {sensor_name} credentials...")
                 
-                with col1:
-                    st.markdown("##### AOI Configuration (Bounding Box)")
-                    min_lon = st.number_input("Min Longitude", value=-68.9, format="%.4f")
-                    max_lon = st.number_input("Max Longitude", value=-68.8, format="%.4f")
-                    min_lat = st.number_input("Min Latitude", value=-22.5, format="%.4f")
-                    max_lat = st.number_input("Max Latitude", value=-22.4, format="%.4f")
-                    
-                with col2:
-                    st.markdown("##### Temporal & Cloud Criteria")
-                    start_d = st.date_input("Start Date", value=date(2025, 9, 1))
-                    end_d = st.date_input("End Date", value=date(2025, 11, 30))
-                    cloud_cover = st.slider("Max Cloud Cover (%)", 0, 100, 10)
-                    
-                submit_ingest = st.form_submit_button(f"Download {sensor_name} Data")
+                s_date = start_d.strftime("%Y%m%d")
+                e_date = end_d.strftime("%Y%m%d")
                 
-            if submit_ingest:
-                with st.spinner("Executing M2M bridge request. Keep session active (downloading GigaByte arrays)..."):
-                    st.toast(f"Authenticating {sensor_name} credentials...")
-                    
-                    s_date = start_d.strftime("%Y%m%d")
-                    e_date = end_d.strftime("%Y%m%d")
-                    
-                    before_files = set(raw_dir.glob(archive_ext))
-                    
-                    try:
-                        if "Landsat" in mission_platform:
-                            aoi_bbox = (min_lon, min_lat, max_lon, max_lat)
-                            prog_bar = st.progress(0)
-                            prog_text = st.empty()
-                            
-                            def download_cb(current, total, prefix="Processing"):
-                                pct = current / total if total > 0 else 0
-                                pct = min(max(pct, 0.0), 1.0)
-                                prog_bar.progress(pct)
-                                prog_text.text(f"{prefix} [{int(pct*100)}%]")
-                                
-                            download_landsat(aoi_bbox=aoi_bbox, start_date=s_date, end_date=e_date, max_cloud_cover=cloud_cover, progress_callback=download_cb)
-                        else:
-                            aoi_wkt = f"POLYGON(({min_lon} {min_lat}, {max_lon} {min_lat}, {max_lon} {max_lat}, {min_lon} {max_lat}, {min_lon} {min_lat}))"
-                            st.info("Sentinel CDSE initialized. Review runtime environment logs for Sentinelsat telemetry.")
-                            download_sentinel(aoi_wkt, s_date, e_date, cloud_cover=(0, cloud_cover))
-                            
-                        after_files = set(raw_dir.glob(archive_ext))
-                        new_files = after_files - before_files
+                before_files = set(raw_dir.glob(archive_ext))
+                
+                try:
+                    if "Landsat" in mission_platform:
+                        aoi_bbox = (min_lon, min_lat, max_lon, max_lat)
+                        prog_bar = st.progress(0)
+                        prog_text = st.empty()
                         
-                        if new_files:
-                            st.success("Download complete!")
-                            st.toast("Pushing raw archives to the Universal Refinery Pipeline...")
+                        def download_cb(current, total, prefix="Processing"):
+                            pct = current / total if total > 0 else 0
+                            pct = min(max(pct, 0.0), 1.0)
+                            prog_bar.progress(pct)
+                            prog_text.text(f"{prefix} [{int(pct*100)}%]")
                             
-                            for raw_archive in new_files:
-                                with st.spinner(f"Refining COG archive natively: {raw_archive.name}"):
-                                    prep = Preprocessor()
-                                    prep.refinery_pipeline(str(raw_archive))
-                                    
-                            st.success("✅ End-to-End Ingestion & Refinery Sequence Completed. Proceed to Analytics.")
-                        else:
-                            st.warning("Warning: No new files were resolved. The API returned empty results or payload was cached.")
-                    except Exception as e:
-                        st.error(f"Critical Ingestion Error Mounted: {e}")
+                        download_landsat(aoi_bbox=aoi_bbox, start_date=s_date, end_date=e_date, max_cloud_cover=cloud_cover, progress_callback=download_cb)
+                    else:
+                        aoi_wkt = f"POLYGON(({min_lon} {min_lat}, {max_lon} {min_lat}, {max_lon} {max_lat}, {min_lon} {max_lat}, {min_lon} {min_lat}))"
+                        st.info("Sentinel CDSE initialized. Review runtime environment logs for Sentinelsat telemetry.")
+                        download_sentinel(aoi_wkt, s_date, e_date, cloud_cover=(0, cloud_cover))
+                        
+                    after_files = set(raw_dir.glob(archive_ext))
+                    new_files = after_files - before_files
+                    
+                    if new_files:
+                        st.success("Download complete!")
+                        st.toast("Pushing raw archives to the Universal Refinery Pipeline...")
+                        
+                        for raw_archive in new_files:
+                            with st.spinner(f"Refining COG archive natively: {raw_archive.name}"):
+                                prep = Preprocessor()
+                                prep.refinery_pipeline(str(raw_archive))
+                                
+                        st.success("✅ End-to-End Ingestion & Refinery Sequence Completed. Proceed to Analytics.")
+                    else:
+                        st.warning("Warning: No new files were resolved. The API returned empty results or payload was cached.")
+                except Exception as e:
+                    st.error(f"Critical Ingestion Error Mounted: {e}")
 
         # --- Mission Specific Local Intercept Blocks (Hybrid Flow) ---
         st.divider()
         raw_archives = list(raw_dir.glob(archive_ext))
-        if "Drone" in mission_platform:
-            raw_archives.extend(list(raw_dir.glob("*.tiff")))
             
         if raw_archives:
             st.markdown(f"##### Hybrid Flow: Process Existing {sensor_target.capitalize()} Archives")
@@ -229,7 +216,7 @@ try:
         
         with col_A:
             st.subheader("Left Engine")
-            sensor_A = st.selectbox("Left Engine: Sensor", ["landsat", "sentinel", "drone"], key="sens_a")
+            sensor_A = st.selectbox("Left Engine: Sensor", ["landsat", "sentinel"], key="sens_a")
             results_dir_A = project_root / "data" / "results" / sensor_A
             avail_A = [d.name for d in results_dir_A.iterdir() if d.is_dir()] if results_dir_A.exists() else []
             
@@ -240,7 +227,7 @@ try:
             
         with col_B:
             st.subheader("Right Engine")
-            sensor_B = st.selectbox("Right Engine: Sensor", ["landsat", "sentinel", "drone"], key="sens_b")
+            sensor_B = st.selectbox("Right Engine: Sensor", ["landsat", "sentinel"], key="sens_b")
             results_dir_B = project_root / "data" / "results" / sensor_B
             avail_B = [d.name for d in results_dir_B.iterdir() if d.is_dir()] if results_dir_B.exists() else []
             

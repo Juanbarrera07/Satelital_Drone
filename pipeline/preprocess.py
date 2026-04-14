@@ -76,12 +76,13 @@ class Preprocessor:
         """
         logger.info(f"Refinery: Converting {os.path.basename(src_path)} to COG.")
         
-        # COG specifications explicitly demanded
+        # COG specifications explicitly demanded enforcing IPCC native Transparency Limits
         dst_profile = cog_profiles.get("deflate")
         dst_profile.update({
             "tiled": True,
             "blockxsize": 256,
-            "blockysize": 256
+            "blockysize": 256,
+            "nodata": -9999.0
         })
         
         # Configuration tuning
@@ -95,9 +96,35 @@ class Preprocessor:
             from rasterio.vrt import WarpedVRT
             from rasterio.enums import Resampling
             import rasterio
+            from rasterio.crs import CRS
             
             with rasterio.open(src_path) as src:
                 vrt_options = {}
+                
+                # Validation: Data type check against nodata constraints
+                src_dtype = src.dtypes[0]
+                is_qa_band = "QA" in os.path.basename(src_path).upper()
+                
+                if not is_qa_band and src_dtype in ['uint16', 'uint8', 'int16', 'int8']:
+                    logger.warning(f"Self-Healing: Forcing float32 casting on {os.path.basename(src_path)} to accommodate -9999.0 nodata transparency.")
+                    dst_profile.update(dtype='float32', nodata=-9999.0)
+                    os.makedirs("logs", exist_ok=True)
+                    with open("logs/self_healing_audit.log", "a") as f:
+                        f.write(f"AUTOSANATION_DTYPE_CAST: Escaped {src_dtype} limit forcing float32 cast on {os.path.basename(src_path)}.\n")
+                elif is_qa_band:
+                    # Skip nodata injection enforcing original bitmask integrity
+                    logger.info(f"Refinery: Maintaining QA Bitmask explicit integrity for {os.path.basename(src_path)}.")
+                    dst_profile.update(dtype=src_dtype, nodata=src.nodata)
+                
+                # Self-Healing: CRS Projection Auto-Warp ensuring strict geometry adherence
+                target_crs = CRS.from_epsg(32719)
+                if src.crs != target_crs:
+                    logger.warning(f"AUTOSANATION_CRS_32719: Misaligned projection detected. Enforcing EPSG:32719 via WarpedVRT.")
+                    os.makedirs("logs", exist_ok=True)
+                    with open("logs/self_healing_audit.log", "a") as f:
+                        f.write(f"AUTOSANATION_CRS_32719 triggered on {os.path.basename(src_path)}.\n")
+                    vrt_options.update(crs=target_crs)
+                    
                 # Live dynamic upsampling aligning Sentinel 20m geometry directly into 10m coordinate grid
                 if "B11_20m" in src_path or "B12_20m" in src_path:
                     logger.info(f"Refinery: Enforcing 10m Topography upscaling native 20m geometry for {os.path.basename(src_path)}")
@@ -138,20 +165,12 @@ class Preprocessor:
         
         lower_path = raw_archive_path.lower()
         if lower_path.endswith(".zip"): sensor_folder = "sentinel"
-        elif lower_path.endswith(".tar"): sensor_folder = "landsat"
-        else: sensor_folder = "drone"
+        else: sensor_folder = "landsat"
         
         interim_dir = os.path.join(base_dir, "data", "interim", sensor_folder, session_id)
         processed_dir = os.path.join(base_dir, "data", "processed", sensor_folder, session_id)
         os.makedirs(interim_dir, exist_ok=True)
         os.makedirs(processed_dir, exist_ok=True)
-        
-        if sensor_folder == "drone":
-            logger.info("Refinery: Bypassing extraction architecture for Drone footprint, bridging directly to COG Array.")
-            dst_path = os.path.join(processed_dir, f"{session_id}_Orthomosaic_COG.tif")
-            if not os.path.exists(dst_path):
-                self.build_cog(raw_archive_path, dst_path)
-            return [dst_path]
         
         # Step 1: Extraction
         raw_tifs = self.extract_archive(raw_archive_path, interim_dir)
@@ -172,8 +191,21 @@ class Preprocessor:
         Convert raw digital numbers or TOA reflectance to BOA Surface Reflectance.
         """
         logger.info("Applying BOA standardization.")
+        
+        # Self-Healing Integrity Check: Detect NaNs and infs natively
+        invalid_mask = np.isnan(data) | np.isinf(data)
+        
+        if invalid_mask.any():
+            os.makedirs("logs", exist_ok=True)
+            with open("logs/self_healing_audit.log", "a") as f:
+                f.write("AUTOSANATION_NAN_OVERRIDE triggered on standardize_to_boa.\n")
+                
         boa_data = data.astype(np.float32) / scaling_factor
-        return np.clip(boa_data, 0.0, 1.0)
+        boa_data = np.clip(boa_data, 0.0, 1.0)
+        
+        # Strict Assignment of Transparent Voids natively
+        boa_data[invalid_mask] = -9999.0
+        return boa_data
 
     def validate_coregistration(self, expected_rmse: float) -> bool:
         """

@@ -32,6 +32,22 @@ class SpectralAnalyzer:
         # Fallback heuristic using Landsat Collection 2 suffixes
         if any("SR_B4" in f for f in files):
             return "LANDSAT"
+            
+        # Refactorización de identify_satellite:
+        # Busca en los metadatos del raster (src.tags()) palabras clave como "LANDSAT" o "SENTINEL".
+        for f in folder_path.iterdir():
+            if f.is_file() and f.suffix.lower() in [".tif", ".tiff", ".jp2", ".tif"]:
+                try:
+                    with rasterio.open(f) as src:
+                        tags = src.tags()
+                        for key, val in tags.items():
+                            val_upper = str(val).upper()
+                            if "LANDSAT" in val_upper: return "LANDSAT"
+                            elif "SENTINEL" in val_upper: return "SENTINEL"
+                except Exception:
+                    continue
+                    
+        logger.warning(f"Heuristics failed to identify satellite. Manejo de Footprints Vacíos: Directorio escaneado devolvió archivos -> {files}")
         return "UNKNOWN"
 
     def get_band_paths(self, folder_path: Path, satellite: str) -> dict:
@@ -86,21 +102,25 @@ class SpectralAnalyzer:
                     
                     # Strict division logic masking ZeroDivisionError behavior natively
                     with np.errstate(divide='ignore', invalid='ignore'):
+                        divisor = b1 + b2
+                        
                         if index_type == "NDVI":
-                            # NDVI = (NIR - Red) / (NIR + Red) -> b1: NIR, b2: Red
-                            idx_array = (b1 - b2) / (b1 + b2)
+                            idx_array = (b1 - b2) / divisor
                         elif index_type == "NDWI":
-                            # NDWI = (Green - NIR) / (Green + NIR) -> b1: Green, b2: NIR
-                            idx_array = (b1 - b2) / (b1 + b2)
+                            idx_array = (b1 - b2) / divisor
                         elif index_type == "CLAY":
-                            # Clay = SWIR1 / SWIR2 -> b1: SWIR1, b2: SWIR2
                             idx_array = b1 / b2
+                            divisor = b2
                         elif index_type == "IRON_OXIDE":
-                            # Iron Oxide = Red / Blue -> b1: Red, b2: Blue
                             idx_array = b1 / b2
+                            divisor = b2
                         else:
                             raise ValueError(f"Unknown Index mapping: {index_type}")
                             
+                        # Geo-Analytical Integrity (NODATA Compliance)
+                        # Fixes NaN divisions bounding strictly to -9999.0 instead of relying on 0.0 rendering corruptions
+                        mask_invalid = (divisor == 0) | np.isnan(idx_array) | np.isinf(idx_array) | (b1 == -9999.0) | (b2 == -9999.0)
+                        
                         # Dynamic Masking logic for geological indices (Bare Soil Isolation)
                         if index_type in ["CLAY", "IRON_OXIDE"] and all([green_path, red_path, nir_path]):
                             with rasterio.open(green_path) as sg, rasterio.open(red_path) as sr, rasterio.open(nir_path) as sn:
@@ -111,11 +131,10 @@ class SpectralAnalyzer:
                                 ephemeral_ndvi = (n - r) / (n + r)
                                 ephemeral_ndwi = (g - n) / (g + n)
                                 
-                                mask = (ephemeral_ndvi > 0.2) | (ephemeral_ndwi > 0.0)
-                                idx_array[mask] = -9999.0
-                            
-                    # Cleans up NaN space or divergent infinities resulting from bounds limits
-                    idx_array = np.nan_to_num(idx_array, nan=-9999.0, posinf=-9999.0, neginf=-9999.0)
+                                soil_mask = (ephemeral_ndvi > 0.2) | (ephemeral_ndwi > 0.0)
+                                mask_invalid = mask_invalid | soil_mask
+                                
+                        idx_array[mask_invalid] = -9999.0
                     
                     # Flush chunk out
                     dst.write(idx_array, 1, window=window)
@@ -214,7 +233,12 @@ class SpectralAnalyzer:
             # Step 2: Push structural COG format natively wrapping resulting raw output
             logger.info(f"Optimizing {prod_name} temp file into standard COG...")
             dst_profile = cog_profiles.get("deflate")
-            dst_profile.update({"tiled": True, "blockxsize": 256, "blockysize": 256})
+            dst_profile.update({
+                "tiled": True, 
+                "blockxsize": 256, 
+                "blockysize": 256,
+                "nodata": -9999.0
+            })
             config = dict(GDAL_NUM_THREADS="ALL_CPUS", GDAL_TIFF_INTERNAL_MASK=True)
             
             try:
@@ -236,6 +260,20 @@ class SpectralAnalyzer:
                 try:
                     if temp_tif.exists():
                         temp_tif.unlink()
+                except PermissionError as e:
+                    logger.warning(f"WinError 32 Lock detected on {temp_tif}. Triggering AUTOSANATION_GARBAGE_COLLECTION.")
+                    import gc
+                    import time
+                    import os
+                    os.makedirs("logs", exist_ok=True)
+                    with open("logs/self_healing_audit.log", "a") as f:
+                        f.write(f"AUTOSANATION_GARBAGE_COLLECTION triggered on {temp_tif.name}.\n")
+                    gc.collect()
+                    time.sleep(0.5)
+                    try:
+                        if temp_tif.exists(): temp_tif.unlink()
+                    except Exception as fatal_e:
+                        logger.error(f"Failed lock release bypass: {fatal_e}")
                 except Exception as e:
                     logger.warning(f"Could not cleanly unlink volatile temp file {temp_tif}: {e}")
 
