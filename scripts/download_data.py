@@ -23,6 +23,7 @@ logger = logging.getLogger("DataDownloader")
 
 def download_sentinel(aoi_wkt: str, start_date: str, end_date: str, cloud_cover: tuple = (0, 20)):
     """Handles Sentinel-2 downloads via Copernicus Data Space Ecosystem."""
+    load_dotenv()
     user = os.environ.get('COPERNICUS_USER')
     password = os.environ.get('COPERNICUS_PASSWORD')
     
@@ -86,6 +87,7 @@ def download_sentinel(aoi_wkt: str, start_date: str, end_date: str, cloud_cover:
 
 def download_landsat(aoi_bbox: tuple, start_date: str, end_date: str, max_cloud_cover: int = 10):
     """Handles Landsat downloads via USGS M2M API using requests.Session() and dynamic auth fallback."""
+    load_dotenv()
     username = os.environ.get('USGS_USER')
     usgs_pat = os.environ.get('USGS_PAT')
     
@@ -293,24 +295,25 @@ def main():
     parser = argparse.ArgumentParser(description="TerraForge Mining Intelligence - Ingestion Downloader")
     parser.add_argument("--satellite", type=str, choices=["sentinel", "landsat"], required=True,
                         help="Select satellite source: 'sentinel' or 'landsat'.")
+    parser.add_argument("--min_lon", type=float, required=True)
+    parser.add_argument("--min_lat", type=float, required=True)
+    parser.add_argument("--max_lon", type=float, required=True)
+    parser.add_argument("--max_lat", type=float, required=True)
+    parser.add_argument("--start_date", type=str, required=True)
+    parser.add_argument("--end_date", type=str, required=True)
     args = parser.parse_args()
     
     target_satellite = args.satellite.lower()
-
-    # Define an Area of Interest (AOI) parameterization
-    aoi_wkt = "POLYGON((-68.9 -22.5, -68.8 -22.5, -68.8 -22.4, -68.9 -22.4, -68.9 -22.5))"
-    # landsat bbox: (xmin, ymin, xmax, ymax)
-    aoi_bbox = (-68.9, -22.5, -68.8, -22.4)
-    
-    start_date = '20250901'
-    end_date = '20251130'
+    aoi_bbox = (args.min_lon, args.min_lat, args.max_lon, args.max_lat)
 
     logger.info(f"🚀 *** TerraForge Ingestion Engine - Target: {target_satellite.upper()} ***")
 
     if target_satellite == "sentinel":
-        download_sentinel(aoi_wkt, start_date, end_date)
+        # wkt derived statically just for standard fallbacks here if ever triggered directly by shell
+        aoi_wkt = f"POLYGON(({args.min_lon} {args.min_lat}, {args.max_lon} {args.min_lat}, {args.max_lon} {args.max_lat}, {args.min_lon} {args.max_lat}, {args.min_lon} {args.min_lat}))"
+        download_sentinel(aoi_wkt, args.start_date, args.end_date)
     elif target_satellite == "landsat":
-        download_landsat(aoi_bbox, start_date, end_date)
+        download_landsat(aoi_bbox, args.start_date, args.end_date)
 
 
 if __name__ == "__main__":
